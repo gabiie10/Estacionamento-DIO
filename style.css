@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    margin: 0;
+}
+
+header{
+    padding-top: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 238, 238);
+    padding-bottom: 8px;
+    margin-bottom: 33px;
+    
+}
+h1{
+    font-family: 'Diplomata SC', cursive;
+    color:green ;
+}
+span{
+    color: purple;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+#nome:focus{
+    background-color: rgb(244, 113, 101);
+}
+#nome{
+    background-color: tomato;
+}
+
+#placa:focus{
+    background-color: rgb(254, 213, 136);
+}
+#placa{
+    background-color: rgb(250, 188, 74);
+}
+form button{
+    font-size: 2em;
+    height: 50px;
+    width: 91%;
+    border: 1px solid rgb(149, 145, 145);
+    border-radius: 10px;
+    background-color: rgb(211, 243, 162);
+    font-family: 'Roboto', sans-serif;
+}
+form button:hover{
+    background-color: rgba(96, 235, 96, 0.938);
+    box-shadow: rgb(140, 239, 137) 0px 20px 30px -10px;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 2px;
+}
+::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+input{
+    border: 1px solid rgb(149, 145, 145);
+    border-radius: 10px;
+    height: 50px;
+    width: 91%;
+    font-size: 1em;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    margin-left: 26%;
+    border-radius: 3px;
+    background-color: rgb(234, 234, 234);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    height: 258px;
+    
+    align-items: center;
+    justify-content: space-around;
+    
+}
+table{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+    border-radius: 3px;
+ width: 60%; 
+ margin-top: 5%;
+ margin-left: 20%; 
+ margin-bottom: 30px;
+}
+thead{
+    font-family: 'Quicksand', sans-serif;
+}
+tbody{
+    font-family: 'Quicksand', sans-serif;
+    color: gray;
+}
+.delete{
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(136, 27, 27);
+    border-radius: 66%;
+    background-color: tomato;
+  color: aliceblue;
+    padding-bottom: 3px;
+}
+footer{display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9px;
+    height: 50px;
+    background-color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-bottom: 65px;
+}
+
